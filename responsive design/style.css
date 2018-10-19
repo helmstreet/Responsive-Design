@@ -1,0 +1,146 @@
+
+body {
+    background-color: darkgrey;
+}
+
+p {
+    font-size: large;
+    color: saddlebrown;
+    font-style: normal;
+    font-family: monospace;
+
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+/* grid stuff from w3schools.com */
+
+* {
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/*for mobile*/
+
+[class*="col-"] {
+    width: 100%;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+
+/*menu and header stuff from w3schools */
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin: 1%;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    width: 20%;
+    float: left;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.menu li:active {
+    background-color: red;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 85px;
+}
+
+/*for desktop */
+@media only screen and (min-width: 768px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.header {
+    background-color: blue; 
+    color: #ffffff; 
+    padding: 15px;
+}
+    #navbar{
+    width: 200px;
+}
+.row{
+    padding-left: 200px
+    }
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    float: none;
+    width: 80%;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+    .content {
+        padding-top: 600px;
+    }
+.menu li:active {
+    background-color: red;
+}   
+
+}
+
+
+
+
+
+
+    
